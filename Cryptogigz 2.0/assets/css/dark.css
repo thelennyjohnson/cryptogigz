@@ -1,0 +1,55 @@
+/* dark-theme.css */
+/* dark-theme.css */
+
+body {
+    background-color: #00030a;
+    color: #ffffff;
+  }
+  
+  .bsb-hero-2, .footer, .accordion-header, .accordion-body, .btn-primary {
+   background-color: #00030a; 
+    color: #ffffff;
+  }
+
+  .highlighter-under {
+
+    color: #007bff;
+
+  }
+
+  #scrollspyHero {
+    background: url('../img/background.png') no-repeat center center;
+    background-size: cover;
+  }
+  
+
+  .bg-dark-custom {
+    background-color: #00030a; /* or any dark color you prefer */
+    color: #ffffff; /* Ensure text is readable */
+}
+
+
+.btn-primary.bsb-btn-3xl {
+    background-color: #007bff; /* Active blue color */
+
+}
+
+  
+  .bsb-tpl-highlight, .accordion-button:not(.collapsed), .btn-primary, .nav-link, .badge {
+    color: #ffffff;
+  }
+  
+  .accordion-button::after {
+    filter: invert(1);
+  }
+
+  
+  footer .bg-light {
+    background-color: #00030a;
+  }
+  
+  footer .text-dark {
+    color: #ffffff;
+  }
+  
+/* Add more styles for other elements as needed */
